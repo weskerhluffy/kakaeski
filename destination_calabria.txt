@@ -1,0 +1,30 @@
+
+/*
+
+# Construir un Test Plan para Google Search
+
+El usuario llega a la pagina metiendo www.google.com y ve la caja de texto donde puede meter su texto de búsqueda y tiene dos botones uno que dice "Search" y otro que dice "I am Feeling Lucky".
+
+Cuando se presiona el botón search, se manda la petición al sistema y se ejecuta una búsqueda en el backend.  Cuando la búsqueda finaliza se regresa el resultado en una lista.
+
+Cuando se presiona el botón "I'm feeling lucky" se manda la petición al sistema y se ejecuta la búsqueda. Cuando la búsqueda finaliza se redirije a la página que salió como primer resultado de la búsqueda.
+
+-
+
+-------------------------------------
+
+Functionales
+
+1.- Probar caracteres especiales.
+
+Destructivas
+
+1.- Copiar y pegar para buscar texto de 1GB. (Peticion directa HTTP)
+2.- Copiar y pegar para buscar texto de el limite del navegador para cajas de texto.
+3.- Ataque de peticiones via browser.
+4.- Ataque de peticiones via directa HTTP.
+5.- SQL injection.
+6.- .
+
+
+*/
